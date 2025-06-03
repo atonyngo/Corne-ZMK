@@ -15,7 +15,7 @@
 // ------------------------------------------------------------------------------
 // | TAB |  Q  |  W  |  E  |  R  |  T  |   |  Y  |  U  |  I  |  O  |  P  | BKS |
 // | ESC |  A  |  S  |  D  |  F  |  G  |   |  H  |  J  |  K  |  L  |  ;  | RET |
-// | NOP |  Z  |  X  |  C  |  V  |  B  |   |  N  |  M  |  ,  |  .  |  /  | NOP |
+// | nop |  Z  |  X  |  C  |  V  |  B  |   |  N  |  M  |  ,  |  .  |  /  | nop |
 //                   | NUM | SYM | SPC |   | SPC | SYM | NUM |
             display-name = "Base";
             bindings = <
@@ -28,14 +28,14 @@
            
         symbol_layer {
 // ------------------------------------------------------------------------------
-// | NOP |  !  |  @  |  #  |  $  |  %  |   |  ^  |  &  |  *  |  -  |  =  |  \  |
-// | ESC | NOP |  [  |  {  |  (  |  '  |   |  "  |  )  |  }  |  ]  |  :  | RET |
-// | NOP | NOP | NOP | NOP | NOP | NOP |   |  |  | NOP | NOP |  _  |  +  | NOP |
-//                   | NOP |     | SPC |   | ENT |     | NOP |
+// | nop |  !  |  @  |  #  |  $  |  %  |   |  ^  |  &  |  *  |  -  |  =  |  \  |
+// | ESC | nop |  [  |  {  |  (  |  '  |   |  "  |  )  |  }  |  ]  |  :  | RET |
+// | nop | nop | nop | nop | nop | nop |   |  |  | nop | nop |  _  |  +  | nop |
+//                   | nop |     | SPC |   | ENT |     | nop |
             display-name = "Symbols";
             bindings = <
     &none     &kp EXCL  &kp AT    &kp HASH  &kp DLLR  &kp PRCNT &kp CARET &kp AMPS  &kp STAR  &kp MINUS &kp EQUAL &kp BSLH 
-    &trans    &none     &kp LBKT  &kp LBRC  &kp LPAR  &kp SQT   &kp DQT   &kp RPAR  &kp RBRC  &kp RBKT  &kp SEMI  &trans
+    &trans    &none     &kp LBKT  &kp LBRC  &kp LPAR  &kp SQT   &kp DQT   &kp RPAR  &kp RBRC  &kp RBKT  &kp COLON &trans
     &none     &none     &none     &none     &none     &none     &kp PIPE  &none     &none     &kp UNDER &kp PLUS  &kp FSLH 
                                   &none     &trans    &trans    &trans    &trans    &none
             >;
@@ -44,10 +44,10 @@
         nums_layer {
 // ------------------------------------------------------------------------------
 // |  F1 |  F2 |  F3 |  F4 |  F5 |  F6 |   |  F7 |  F8 |  F9 | F10 | F11 | F12 |
-// | ESC |  1  |  2  |  3  |  4  |  5  |   |  6  |  7  |  8  |  9  |  0  | NOP |
-// | NOP | NOP | NOP | NOP | NOP | NOP |   | NOP | NOP | NOP | NOP | NOP | NOP |
-//                   | NOP |     | SPC |   | ENT |     | NOP |
-            display-name = "Nums";
+// | ESC |  1  |  2  |  3  |  4  |  5  |   |  6  |  7  |  8  |  9  |  0  | nop |
+// | nop | nop | nop | nop | nop | nop |   | nop | nop | nop | nop | nop | nop |
+//                   | nop |     | SPC |   | ENT |     | nop |
+            display-name = "Numbers";
             bindings = <
     &kp F1    &kp F2    &kp F3    &kp F4    &kp F5    &kp F6    &kp F7    &kp F8    &kp F9    &kp F10   &kp F11   &kp F12 
     &trans    &kp N1    &kp N2    &kp N3    &kp N4    &kp N5    &kp N6    &kp N7    &kp N8    &kp N9    &kp N0    &none
@@ -56,8 +56,19 @@
             >;
         };
 
-        extra_1 {
-            status = "reserved";
+        system_layer {
+// ------------------------------------------------------------------------------
+// | nop | nop | PRV | PLY | NXT | nop |   | nop | nop | nop | nop | nop | nop |
+// | ESC | nop | VL- | VL+ | MUT | nop |   | nop | nop | nop | nop | nop | nop |
+// | nop | nop | nop | nop | nop | nop |   | nop | nop | nop | nop | nop | nop |
+//                   | nop |     | SPC |   | ENT |     | nop |
+            display-name = "System";
+            bindings = <
+    &none     &none     &kp C_PREV &kp C_PP  &kp C_NEXT &none     &none      &none      &none      &none     &none     &none   
+    &trans    &kp N1    &kp N2     &kp N3    &kp N4     &none     &bt BT_CLR &bt BT_PRV &bt BT_NXT &none     &none     &none   
+    &none     &none     &none      &none     &none      &none     &none      &none      &none      &none     &none     &none 
+                                   &none     &trans     &trans    &trans     &trans     &none
+            >;
         };
 
         extra_2 {
@@ -77,7 +88,14 @@
 //                   |  36 |  37 |  38 |   |  39 |  40 |  41 |
     combos {
         compatible = "zmk,combos";
-        // Left side
+        // Layer combos
+        combo_sys_layer {
+            timeout-ms = <50>;
+            key-positions = <37 40>;
+            bindings = <&mo 3>;
+        };
+
+        // Left side mods
         combo_lshift {
             timeout-ms = <50>;
             key-positions = <15 16>;
@@ -121,7 +139,7 @@
         };
 
 
-        // Right Side
+        // Right side mods
         combo_rshift {
             timeout-ms = <50>;
             key-positions = <19 20>;
