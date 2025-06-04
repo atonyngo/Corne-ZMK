@@ -28,7 +28,7 @@
            
         symbol_layer {
 // ------------------------------------------------------------------------------
-// |  `  | nop |  [  |  (  |  {  |  '  |   |  "  |  }  |  )  |  ]  | nop |  \  |
+// |  ~  | nop |  [  |  (  |  {  |  '  |   |  "  |  }  |  )  |  ]  | nop |  \  |
 // |  ~  |  !  |  @  |  #  |  $  |  %  |   |  ^  |  &  |  *  |  -  |  =  |  |  |
 // | nop | nop | nop | nop | nop | nop |   | nop | nop | nop |  _  |  +  | nop |
 //                   | nop |     | nop |   | nop |     | nop |
@@ -93,6 +93,12 @@
             timeout-ms = <50>;
             key-positions = <38 39>;
             bindings = <&mo 3>;
+        };
+
+        combo_num_layer_tog {
+            timeout-ms = <50>;
+            key-positions = <36 41>;
+            bindings = <&tog 2>;
         };
 
         // Left side mods
