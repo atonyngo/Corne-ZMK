@@ -36,8 +36,8 @@
 //                   | nop |     | SPC |   | SPC | nop | nop |
             display-name = "Symbols";
             bindings = <
-    &kp TILDE &none     &kp UNDER &kp EQUAL &kp PLUS  &none     &none     &kp EXCL  &kp AT    &kp HASH  &none     &kp BSLH
-    &kp GRAVE &none     &kp LBKT  &kp LPAR  &kp LBRC  &kp DQT   &none     &kp DLLR  &kp PRCNT &kp CARET &none     &kp PIPE 
+    &kp GRAVE &none     &kp UNDER &kp EQUAL &kp PLUS  &none     &none     &kp EXCL  &kp AT    &kp HASH  &none     &kp BSLH
+    &kp TILDE &none     &kp LBKT  &kp LPAR  &kp LBRC  &kp DQT   &none     &kp DLLR  &kp PRCNT &kp CARET &none     &kp PIPE 
     &none     &none     &kp RBKT  &kp RPAR  &kp RBRC  &kp SQT   &none     &kp AMPS  &kp STAR  &kp MINUS &none     &none    
                                   &none     &trans    &trans    &trans    &none     &none
             >;
