@@ -1,0 +1,166 @@
+layout: {zmk_keyboard: corne}
+layers:
+  Base: [TAB, Q, W, E, R, T, Y, U, I, O, P, BSPC, ESC, A, S, D, F, G, H, J, K, L, ;, RET, '', Z, X, C, V, B, N, M, ',', ., /, '', System, Numbers, SPACE, SPACE, Symbols,
+    LANG1]
+  Symbols:
+  - ''
+  - ''
+  - +
+  - '='
+  - _
+  - ''''
+  - ''
+  - '!'
+  - '@'
+  - '#'
+  - ''
+  - \
+  - '~'
+  - ''
+  - '['
+  - (
+  - '{'
+  - '"'
+  - ''
+  - $
+  - '%'
+  - ^
+  - ''
+  - '|'
+  - ''
+  - ''
+  - ']'
+  - )
+  - '}'
+  - '`'
+  - ''
+  - '&'
+  - '*'
+  - '-'
+  - ''
+  - ''
+  - ''
+  - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - ''
+  Numbers:
+  - ''
+  - F1
+  - F2
+  - F3
+  - F4
+  - ''
+  - ''
+  - '1'
+  - '2'
+  - '3'
+  - ''
+  - {t: ▽, type: trans}
+  - ''
+  - F5
+  - F6
+  - F7
+  - F8
+  - ''
+  - '0'
+  - '4'
+  - '5'
+  - '6'
+  - ''
+  - {t: ▽, type: trans}
+  - ''
+  - F9
+  - F10
+  - F11
+  - F12
+  - ''
+  - ''
+  - '7'
+  - '8'
+  - '9'
+  - ''
+  - ''
+  - ''
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - ''
+  - ''
+  System:
+  - ''
+  - ''
+  - PREV
+  - PP
+  - NEXT
+  - ''
+  - ''
+  - PG UP
+  - ''
+  - PG DN
+  - PSCRN
+  - ''
+  - ''
+  - ''
+  - VOL DN
+  - MUTE
+  - VOL UP
+  - ''
+  - LEFT
+  - DOWN
+  - UP
+  - RIGHT
+  - ''
+  - ''
+  - ''
+  - ''
+  - BT PRV
+  - ''
+  - BT NXT
+  - BT CLR
+  - ''
+  - HOME
+  - ''
+  - END
+  - ''
+  - ''
+  - {type: held}
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+combos:
+- p: [37, 40]
+  k: {t: Numbers, h: toggle}
+- p: [15, 16]
+  k: LSHFT
+- p: [14, 16]
+  k: LCTRL
+- p: [13, 16]
+  k: LALT
+- p: [13, 17]
+  k: LMETA
+- p: [14, 15]
+  k: Ctl+LSHFT
+- p: [13, 15]
+  k: Alt+LSHFT
+- p: [13, 14]
+  k: Ctl+LALT
+- p: [19, 20]
+  k: LSHFT
+- p: [19, 21]
+  k: LCTRL
+- p: [19, 22]
+  k: LALT
+- p: [18, 22]
+  k: LMETA
+- p: [20, 21]
+  k: Ctl+LSHFT
+- p: [20, 22]
+  k: Alt+LSHFT
+- p: [21, 22]
+  k: Ctl+LALT
+- p: [15, 16, 19, 20]
+  k: '&caps_word'
