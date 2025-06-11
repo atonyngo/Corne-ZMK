@@ -1,27 +1,27 @@
 layout: {zmk_keyboard: corne}
 layers:
-  Base: [TAB, Q, W, E, R, T, Y, U, I, O, P, BSPC, ESC, A, S, D, F, G, H, J, K, L, ;, RET, '', Z, X, C, V, B, N, M, ',', ., /, '', System, Numbers, SPACE, SPACE, Symbols,
+  Base: [TAB, Q, W, E, R, T, Y, U, I, O, P, BSPC, ESC, A, S, D, F, G, H, J, K, L, ;, RET, '', Z, X, C, V, B, N, M, ',', ., /, '', System, Symbols, SPACE, SPACE, Numbers,
     LANG1]
   Symbols:
+  - '`'
   - ''
   - ''
-  - +
   - '='
-  - _
-  - ''''
+  - +
   - ''
-  - '!'
-  - '@'
-  - '#'
+  - ''
+  - '&'
+  - '*'
+  - '-'
   - ''
   - \
   - '~'
-  - ''
+  - ''''
   - '['
   - (
   - '{'
   - '"'
-  - ''
+  - _
   - $
   - '%'
   - ^
@@ -32,18 +32,18 @@ layers:
   - ']'
   - )
   - '}'
-  - '`'
-  - ''
-  - '&'
-  - '*'
-  - '-'
   - ''
   - ''
+  - '!'
+  - '@'
+  - '#'
   - ''
   - ''
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ''
   - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - ''
   - ''
   Numbers:
   - ''
@@ -53,9 +53,9 @@ layers:
   - F4
   - ''
   - ''
-  - '1'
-  - '2'
-  - '3'
+  - '7'
+  - '8'
+  - '9'
   - ''
   - {t: ▽, type: trans}
   - ''
@@ -64,11 +64,11 @@ layers:
   - F7
   - F8
   - ''
-  - '0'
+  - ''
   - '4'
   - '5'
   - '6'
-  - ''
+  - '0'
   - {t: ▽, type: trans}
   - ''
   - F9
@@ -77,16 +77,16 @@ layers:
   - F12
   - ''
   - ''
-  - '7'
-  - '8'
-  - '9'
+  - '1'
+  - '2'
+  - '3'
   - ''
   - ''
   - ''
+  - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - ''
   - ''
   System:
   - ''
