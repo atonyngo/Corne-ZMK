@@ -6,9 +6,6 @@
 <svg id="mdi:apple-keyboard-option">
 <svg xmlns="http://www.w3.org/2000/svg" id="mdi-apple-keyboard-option" viewBox="0 0 24 24"><path d="M3,4H9.11L16.15,18H21V20H14.88L7.84,6H3V4M14,4H21V6H14V4Z" /></svg>
 </svg>
-<svg id="mdi:apple-keyboard-shift">
-<svg xmlns="http://www.w3.org/2000/svg" id="mdi-apple-keyboard-shift" viewBox="0 0 24 24"><path d="M15,18V12H17.17L12,6.83L6.83,12H9V18H15M12,4L22,14H17V20H7V14H2L12,4Z" /></svg>
-</svg>
 <svg id="mdi:arrow-down-bold">
 <svg xmlns="http://www.w3.org/2000/svg" id="mdi-arrow-down-bold" viewBox="0 0 24 24"><path d="M9,4H15V12H19.84L12,19.84L4.16,12H9V4Z" /></svg>
 </svg>
@@ -24,14 +21,20 @@
 <svg id="mdi:backspace">
 <svg xmlns="http://www.w3.org/2000/svg" id="mdi-backspace" viewBox="0 0 24 24"><path d="M22,3H7C6.31,3 5.77,3.35 5.41,3.88L0,12L5.41,20.11C5.77,20.64 6.31,21 7,21H22A2,2 0 0,0 24,19V5A2,2 0 0,0 22,3M19,15.59L17.59,17L14,13.41L10.41,17L9,15.59L12.59,12L9,8.41L10.41,7L14,10.59L17.59,7L19,8.41L15.41,12" /></svg>
 </svg>
+<svg id="mdi:bluetooth">
+<svg xmlns="http://www.w3.org/2000/svg" id="mdi-bluetooth" viewBox="0 0 24 24"><path d="M14.88,16.29L13,18.17V14.41M13,5.83L14.88,7.71L13,9.58M17.71,7.71L12,2H11V9.58L6.41,5L5,6.41L10.59,12L5,17.58L6.41,19L11,14.41V22H12L17.71,16.29L13.41,12L17.71,7.71Z" /></svg>
+</svg>
 <svg id="mdi:bluetooth-off">
 <svg xmlns="http://www.w3.org/2000/svg" id="mdi-bluetooth-off" viewBox="0 0 24 24"><path d="M13,5.83L14.88,7.71L13.28,9.31L14.69,10.72L17.71,7.7L12,2H11V7.03L13,9.03M5.41,4L4,5.41L10.59,12L5,17.59L6.41,19L11,14.41V22H12L16.29,17.71L18.59,20L20,18.59M13,18.17V14.41L14.88,16.29" /></svg>
 </svg>
-<svg id="mdi:bluetooth-transfer">
-<svg xmlns="http://www.w3.org/2000/svg" id="mdi-bluetooth-transfer" viewBox="0 0 24 24"><path d="M14.71,7.71L10.41,12L14.71,16.29L9,22H8V14.41L3.41,19L2,17.59L7.59,12L2,6.41L3.41,5L8,9.59V2H9L14.71,7.71M10,5.83V9.59L11.88,7.71L10,5.83M11.88,16.29L10,14.41V18.17L11.88,16.29M22,8H20V11H18V8H16L19,4L22,8M22,16L19,20L16,16H18V13H20V16H22Z" /></svg>
-</svg>
 <svg id="mdi:chevron-double-down">
 <svg xmlns="http://www.w3.org/2000/svg" id="mdi-chevron-double-down" viewBox="0 0 24 24"><path d="M16.59,5.59L18,7L12,13L6,7L7.41,5.59L12,10.17L16.59,5.59M16.59,11.59L18,13L12,19L6,13L7.41,11.59L12,16.17L16.59,11.59Z" /></svg>
+</svg>
+<svg id="mdi:chevron-double-left">
+<svg xmlns="http://www.w3.org/2000/svg" id="mdi-chevron-double-left" viewBox="0 0 24 24"><path d="M18.41,7.41L17,6L11,12L17,18L18.41,16.59L13.83,12L18.41,7.41M12.41,7.41L11,6L5,12L11,18L12.41,16.59L7.83,12L12.41,7.41Z" /></svg>
+</svg>
+<svg id="mdi:chevron-double-right">
+<svg xmlns="http://www.w3.org/2000/svg" id="mdi-chevron-double-right" viewBox="0 0 24 24"><path d="M5.59,7.41L7,6L13,12L7,18L5.59,16.59L10.17,12L5.59,7.41M11.59,7.41L13,6L19,12L13,18L11.59,16.59L16.17,12L11.59,7.41Z" /></svg>
 </svg>
 <svg id="mdi:chevron-double-up">
 <svg xmlns="http://www.w3.org/2000/svg" id="mdi-chevron-double-up" viewBox="0 0 24 24"><path d="M7.41,18.41L6,17L12,11L18,17L16.59,18.41L12,13.83L7.41,18.41M7.41,12.41L6,11L12,5L18,11L16.59,12.41L12,7.83L7.41,12.41Z" /></svg>
@@ -72,8 +75,8 @@
 <svg id="mdi:skip-previous">
 <svg xmlns="http://www.w3.org/2000/svg" id="mdi-skip-previous" viewBox="0 0 24 24"><path d="M6,18V6H8V18H6M9.5,12L18,6V18L9.5,12Z" /></svg>
 </svg>
-<svg id="mdi:triangle-down-outline">
-<svg xmlns="http://www.w3.org/2000/svg" id="mdi-triangle-down-outline" viewBox="0 0 24 24"><path d="M12 22L1 3H23M12 18L19.53 5H4.47" /></svg>
+<svg id="mdi:syllabary-hangul">
+<svg xmlns="http://www.w3.org/2000/svg" id="mdi-syllabary-hangul" viewBox="0 0 24 24"><path d="M8 4V6H4V8H6.39C5.55 8.74 5 9.8 5 11C5 13.2 6.8 15 9 15C11.2 15 13 13.2 13 11C13 9.8 12.45 8.74 11.61 8H14V6H10V4M15 4V16H17V11H20V9H17V4M9 9C10.12 9 11 9.88 11 11C11 12.12 10.12 13 9 13C7.88 13 7 12.12 7 11C7 9.88 7.88 9 9 9M7 16V20H17V18H9V16Z" /></svg>
 </svg>
 <svg id="mdi:volume-high">
 <svg xmlns="http://www.w3.org/2000/svg" id="mdi-volume-high" viewBox="0 0 24 24"><path d="M14,3.23V5.29C16.89,6.15 19,8.83 19,12C19,15.17 16.89,17.84 14,18.7V20.77C18,19.86 21,16.28 21,12C21,7.72 18,4.14 14,3.23M16.5,12C16.5,10.23 15.5,8.71 14,7.97V16C15.5,15.29 16.5,13.76 16.5,12M3,9V15H7L12,20V4L7,9H3Z" /></svg>
@@ -257,9 +260,9 @@ path.combo {
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">P</text>
 </g>
-<g transform="translate(812, 49)" class="key backspace keypos-11">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key backspace"/>
-<use href="#mdi:backspace" xlink:href="#mdi:backspace" x="-7" y="-7" height="14" width="14.0" class="key backspace tap glyph mdi:backspace"/>
+<g transform="translate(812, 49)" class="key keypos-11">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
+<use href="#mdi:backspace" xlink:href="#mdi:backspace" x="-7" y="-7" height="14" width="14.0" class="key tap glyph mdi:backspace"/>
 </g>
 <g transform="translate(28, 105)" class="key keypos-12">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -305,9 +308,9 @@ path.combo {
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">;</text>
 </g>
-<g transform="translate(812, 105)" class="key enter keypos-23">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key enter"/>
-<use href="#mdi:keyboard-return" xlink:href="#mdi:keyboard-return" x="-7" y="-7" height="14" width="14.0" class="key enter tap glyph mdi:keyboard-return"/>
+<g transform="translate(812, 105)" class="key keypos-23">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
+<use href="#mdi:keyboard-return" xlink:href="#mdi:keyboard-return" x="-7" y="-7" height="14" width="14.0" class="key tap glyph mdi:keyboard-return"/>
 </g>
 <g transform="translate(28, 161)" class="key none keypos-24">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key none"/>
@@ -377,7 +380,7 @@ path.combo {
 </g>
 <g transform="translate(616, 205)" class="key keypos-41">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">LANG1</text>
+<use href="#mdi:syllabary-hangul" xlink:href="#mdi:syllabary-hangul" x="-7" y="-7" height="14" width="14.0" class="key tap glyph mdi:syllabary-hangul"/>
 </g>
 </g>
 </g>
@@ -426,9 +429,9 @@ path.combo {
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">\</text>
 </g>
-<g transform="translate(812, 49)" class="key backspace keypos-11">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key backspace"/>
-<use href="#mdi:backspace" xlink:href="#mdi:backspace" x="-7" y="-7" height="14" width="14.0" class="key backspace tap glyph mdi:backspace"/>
+<g transform="translate(812, 49)" class="key keypos-11">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
+<use href="#mdi:backspace" xlink:href="#mdi:backspace" x="-7" y="-7" height="14" width="14.0" class="key tap glyph mdi:backspace"/>
 </g>
 <g transform="translate(28, 105)" class="key none keypos-12">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key none"/>
@@ -473,9 +476,9 @@ path.combo {
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">|</text>
 </g>
-<g transform="translate(812, 105)" class="key enter keypos-23">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key enter"/>
-<use href="#mdi:keyboard-return" xlink:href="#mdi:keyboard-return" x="-7" y="-7" height="14" width="14.0" class="key enter tap glyph mdi:keyboard-return"/>
+<g transform="translate(812, 105)" class="key keypos-23">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
+<use href="#mdi:keyboard-return" xlink:href="#mdi:keyboard-return" x="-7" y="-7" height="14" width="14.0" class="key tap glyph mdi:keyboard-return"/>
 </g>
 <g transform="translate(28, 161)" class="key none keypos-24">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key none"/>
@@ -523,7 +526,6 @@ path.combo {
 </g>
 <g transform="translate(286, 213) rotate(15.0)" class="key held keypos-37">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key held"/>
-<use href="#mdi:triangle-down-outline" xlink:href="#mdi:triangle-down-outline" x="-7" y="-7" height="14" width="14.0" class="key held tap glyph mdi:triangle-down-outline"/>
 </g>
 <g transform="translate(351, 224) rotate(30.0)" class="key keypos-38">
 <rect rx="6" ry="6" x="-26" y="-40" width="52" height="80" class="key"/>
@@ -584,9 +586,9 @@ path.combo {
 <g transform="translate(756, 49)" class="key none keypos-10">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key none"/>
 </g>
-<g transform="translate(812, 49)" class="key backspace keypos-11">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key backspace"/>
-<use href="#mdi:backspace" xlink:href="#mdi:backspace" x="-7" y="-7" height="14" width="14.0" class="key backspace tap glyph mdi:backspace"/>
+<g transform="translate(812, 49)" class="key keypos-11">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
+<use href="#mdi:backspace" xlink:href="#mdi:backspace" x="-7" y="-7" height="14" width="14.0" class="key tap glyph mdi:backspace"/>
 </g>
 <g transform="translate(28, 105)" class="key none keypos-12">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key none"/>
@@ -629,9 +631,9 @@ path.combo {
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">0</text>
 </g>
-<g transform="translate(812, 105)" class="key enter keypos-23">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key enter"/>
-<use href="#mdi:keyboard-return" xlink:href="#mdi:keyboard-return" x="-7" y="-7" height="14" width="14.0" class="key enter tap glyph mdi:keyboard-return"/>
+<g transform="translate(812, 105)" class="key keypos-23">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
+<use href="#mdi:keyboard-return" xlink:href="#mdi:keyboard-return" x="-7" y="-7" height="14" width="14.0" class="key tap glyph mdi:keyboard-return"/>
 </g>
 <g transform="translate(28, 161)" class="key none keypos-24">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key none"/>
@@ -692,7 +694,6 @@ path.combo {
 </g>
 <g transform="translate(554, 213) rotate(-15.0)" class="key held keypos-40">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key held"/>
-<use href="#mdi:triangle-down-outline" xlink:href="#mdi:triangle-down-outline" x="-7" y="-7" height="14" width="14.0" class="key held tap glyph mdi:triangle-down-outline"/>
 </g>
 <g transform="translate(616, 205)" class="key none keypos-41">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key none"/>
@@ -795,14 +796,16 @@ path.combo {
 </g>
 <g transform="translate(140, 147)" class="key keypos-26">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<use href="#mdi:bluetooth-transfer" xlink:href="#mdi:bluetooth-transfer" x="-7" y="-7" height="14" width="14.0" class="key tap glyph mdi:bluetooth-transfer"/>
+<use href="#mdi:bluetooth" xlink:href="#mdi:bluetooth" x="-7" y="-7" height="14" width="14.0" class="key tap glyph mdi:bluetooth"/>
+<use href="#mdi:chevron-double-left" xlink:href="#mdi:chevron-double-left" x="-6" y="12" height="12" width="12.0" class="key hold glyph mdi:chevron-double-left"/>
 </g>
 <g transform="translate(196, 140)" class="key none keypos-27">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key none"/>
 </g>
 <g transform="translate(252, 147)" class="key keypos-28">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<use href="#mdi:bluetooth-transfer" xlink:href="#mdi:bluetooth-transfer" x="-7" y="-7" height="14" width="14.0" class="key tap glyph mdi:bluetooth-transfer"/>
+<use href="#mdi:bluetooth" xlink:href="#mdi:bluetooth" x="-7" y="-7" height="14" width="14.0" class="key tap glyph mdi:bluetooth"/>
+<use href="#mdi:chevron-double-right" xlink:href="#mdi:chevron-double-right" x="-6" y="12" height="12" width="12.0" class="key hold glyph mdi:chevron-double-right"/>
 </g>
 <g transform="translate(308, 154)" class="key keypos-29">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -830,7 +833,6 @@ path.combo {
 </g>
 <g transform="translate(224, 205)" class="key held keypos-36">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key held"/>
-<use href="#mdi:triangle-down-outline" xlink:href="#mdi:triangle-down-outline" x="-7" y="-7" height="14" width="14.0" class="key held tap glyph mdi:triangle-down-outline"/>
 </g>
 <g transform="translate(286, 213) rotate(15.0)" class="key none keypos-37">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key none"/>
@@ -1123,7 +1125,7 @@ path.combo {
 <g transform="translate(0, 28)">
 <g transform="translate(28, 28)" class="key  combo-separate keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key  combo-separate"/>
-<use href="#mdi:apple-keyboard-shift" xlink:href="#mdi:apple-keyboard-shift" x="-7" y="-7" height="14" width="14.0" class="key  combo-separate tap glyph mdi:apple-keyboard-shift"/>
+<use href="#mdi:arrow-up-bold" xlink:href="#mdi:arrow-up-bold" x="-7" y="-7" height="14" width="14.0" class="key  combo-separate tap glyph mdi:arrow-up-bold"/>
 </g>
 <g transform="translate(14, 82)" class="key keypos-1">
 <rect rx="6" ry="6" x="-12" y="-12" width="24" height="24" class="key"/>
@@ -1257,7 +1259,7 @@ path.combo {
 <g transform="translate(0, 28)">
 <g transform="translate(28, 28)" class="key  combo-separate keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key  combo-separate"/>
-<use href="#mdi:apple-keyboard-shift" xlink:href="#mdi:apple-keyboard-shift" x="-7" y="-7" height="14" width="14.0" class="key  combo-separate tap glyph mdi:apple-keyboard-shift"/>
+<use href="#mdi:arrow-up-bold" xlink:href="#mdi:arrow-up-bold" x="-7" y="-7" height="14" width="14.0" class="key  combo-separate tap glyph mdi:arrow-up-bold"/>
 </g>
 <g transform="translate(14, 82)" class="key keypos-1">
 <rect rx="6" ry="6" x="-12" y="-12" width="24" height="24" class="key"/>
@@ -2195,7 +2197,8 @@ path.combo {
 <g transform="translate(0, 28)">
 <g transform="translate(28, 28)" class="key  combo-separate keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key  combo-separate"/>
-<use href="#mdi:apple-keyboard-shift" xlink:href="#mdi:apple-keyboard-shift" x="-7" y="-7" height="14" width="14.0" class="key  combo-separate tap glyph mdi:apple-keyboard-shift"/>
+<use href="#mdi:apple-keyboard-control" xlink:href="#mdi:apple-keyboard-control" x="-6" y="12" height="12" width="12.0" class="key  combo-separate hold glyph mdi:apple-keyboard-control"/>
+<use href="#mdi:arrow-up-bold" xlink:href="#mdi:arrow-up-bold" x="-5" y="-24" height="10" width="10.0" class="key  combo-separate shifted glyph mdi:arrow-up-bold"/>
 </g>
 <g transform="translate(14, 82)" class="key keypos-1">
 <rect rx="6" ry="6" x="-12" y="-12" width="24" height="24" class="key"/>
@@ -2329,7 +2332,8 @@ path.combo {
 <g transform="translate(0, 28)">
 <g transform="translate(28, 28)" class="key  combo-separate keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key  combo-separate"/>
-<use href="#mdi:apple-keyboard-shift" xlink:href="#mdi:apple-keyboard-shift" x="-7" y="-7" height="14" width="14.0" class="key  combo-separate tap glyph mdi:apple-keyboard-shift"/>
+<use href="#mdi:apple-keyboard-control" xlink:href="#mdi:apple-keyboard-control" x="-6" y="12" height="12" width="12.0" class="key  combo-separate hold glyph mdi:apple-keyboard-control"/>
+<use href="#mdi:arrow-up-bold" xlink:href="#mdi:arrow-up-bold" x="-5" y="-24" height="10" width="10.0" class="key  combo-separate shifted glyph mdi:arrow-up-bold"/>
 </g>
 <g transform="translate(14, 82)" class="key keypos-1">
 <rect rx="6" ry="6" x="-12" y="-12" width="24" height="24" class="key"/>
@@ -2463,7 +2467,8 @@ path.combo {
 <g transform="translate(0, 28)">
 <g transform="translate(28, 28)" class="key  combo-separate keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key  combo-separate"/>
-<use href="#mdi:apple-keyboard-shift" xlink:href="#mdi:apple-keyboard-shift" x="-7" y="-7" height="14" width="14.0" class="key  combo-separate tap glyph mdi:apple-keyboard-shift"/>
+<use href="#mdi:apple-keyboard-option" xlink:href="#mdi:apple-keyboard-option" x="-6" y="12" height="12" width="12.0" class="key  combo-separate hold glyph mdi:apple-keyboard-option"/>
+<use href="#mdi:arrow-up-bold" xlink:href="#mdi:arrow-up-bold" x="-5" y="-24" height="10" width="10.0" class="key  combo-separate shifted glyph mdi:arrow-up-bold"/>
 </g>
 <g transform="translate(14, 82)" class="key keypos-1">
 <rect rx="6" ry="6" x="-12" y="-12" width="24" height="24" class="key"/>
@@ -2597,7 +2602,8 @@ path.combo {
 <g transform="translate(0, 28)">
 <g transform="translate(28, 28)" class="key  combo-separate keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key  combo-separate"/>
-<use href="#mdi:apple-keyboard-option" xlink:href="#mdi:apple-keyboard-option" x="-7" y="-7" height="14" width="14.0" class="key  combo-separate tap glyph mdi:apple-keyboard-option"/>
+<use href="#mdi:apple-keyboard-option" xlink:href="#mdi:apple-keyboard-option" x="-6" y="12" height="12" width="12.0" class="key  combo-separate hold glyph mdi:apple-keyboard-option"/>
+<use href="#mdi:arrow-up-bold" xlink:href="#mdi:arrow-up-bold" x="-5" y="-24" height="10" width="10.0" class="key  combo-separate shifted glyph mdi:arrow-up-bold"/>
 </g>
 <g transform="translate(14, 82)" class="key keypos-1">
 <rect rx="6" ry="6" x="-12" y="-12" width="24" height="24" class="key"/>
@@ -2659,11 +2665,11 @@ path.combo {
 <g transform="translate(294, 104)" class="key keypos-20">
 <rect rx="6" ry="6" x="-12" y="-12" width="24" height="24" class="key"/>
 </g>
-<g transform="translate(322, 100)" class="key keypos-21">
-<rect rx="6" ry="6" x="-12" y="-12" width="24" height="24" class="key"/>
-</g>
-<g transform="translate(350, 104)" class="key held keypos-22">
+<g transform="translate(322, 100)" class="key held keypos-21">
 <rect rx="6" ry="6" x="-12" y="-12" width="24" height="24" class="key held"/>
+</g>
+<g transform="translate(350, 104)" class="key keypos-22">
+<rect rx="6" ry="6" x="-12" y="-12" width="24" height="24" class="key"/>
 </g>
 <g transform="translate(378, 110)" class="key held keypos-23">
 <rect rx="6" ry="6" x="-12" y="-12" width="24" height="24" class="key held"/>
@@ -2731,7 +2737,8 @@ path.combo {
 <g transform="translate(0, 28)">
 <g transform="translate(28, 28)" class="key  combo-separate keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key  combo-separate"/>
-<use href="#mdi:apple-keyboard-option" xlink:href="#mdi:apple-keyboard-option" x="-7" y="-7" height="14" width="14.0" class="key  combo-separate tap glyph mdi:apple-keyboard-option"/>
+<use href="#mdi:apple-keyboard-control" xlink:href="#mdi:apple-keyboard-control" x="-6" y="12" height="12" width="12.0" class="key  combo-separate hold glyph mdi:apple-keyboard-control"/>
+<use href="#mdi:apple-keyboard-option" xlink:href="#mdi:apple-keyboard-option" x="-5" y="-24" height="10" width="10.0" class="key  combo-separate shifted glyph mdi:apple-keyboard-option"/>
 </g>
 <g transform="translate(14, 82)" class="key keypos-1">
 <rect rx="6" ry="6" x="-12" y="-12" width="24" height="24" class="key"/>
@@ -2865,7 +2872,8 @@ path.combo {
 <g transform="translate(0, 28)">
 <g transform="translate(28, 28)" class="key  combo-separate keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key  combo-separate"/>
-<use href="#mdi:apple-keyboard-shift" xlink:href="#mdi:apple-keyboard-shift" x="-7" y="-7" height="14" width="14.0" class="key  combo-separate tap glyph mdi:apple-keyboard-shift"/>
+<use href="#mdi:apple-keyboard-control" xlink:href="#mdi:apple-keyboard-control" x="-6" y="12" height="12" width="12.0" class="key  combo-separate hold glyph mdi:apple-keyboard-control"/>
+<use href="#mdi:apple-keyboard-option" xlink:href="#mdi:apple-keyboard-option" x="-5" y="-24" height="10" width="10.0" class="key  combo-separate shifted glyph mdi:apple-keyboard-option"/>
 </g>
 <g transform="translate(14, 82)" class="key keypos-1">
 <rect rx="6" ry="6" x="-12" y="-12" width="24" height="24" class="key"/>
@@ -2927,11 +2935,11 @@ path.combo {
 <g transform="translate(294, 104)" class="key keypos-20">
 <rect rx="6" ry="6" x="-12" y="-12" width="24" height="24" class="key"/>
 </g>
-<g transform="translate(322, 100)" class="key held keypos-21">
-<rect rx="6" ry="6" x="-12" y="-12" width="24" height="24" class="key held"/>
-</g>
-<g transform="translate(350, 104)" class="key keypos-22">
+<g transform="translate(322, 100)" class="key keypos-21">
 <rect rx="6" ry="6" x="-12" y="-12" width="24" height="24" class="key"/>
+</g>
+<g transform="translate(350, 104)" class="key held keypos-22">
+<rect rx="6" ry="6" x="-12" y="-12" width="24" height="24" class="key held"/>
 </g>
 <g transform="translate(378, 110)" class="key held keypos-23">
 <rect rx="6" ry="6" x="-12" y="-12" width="24" height="24" class="key held"/>

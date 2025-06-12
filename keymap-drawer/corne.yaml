@@ -12,7 +12,7 @@ layers:
   - I
   - O
   - P
-  - {t: '$$mdi:backspace$$', type: backspace}
+  - $$mdi:backspace$$
   - $$mdi:keyboard-esc$$
   - A
   - S
@@ -24,7 +24,7 @@ layers:
   - K
   - L
   - ;
-  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - $$mdi:keyboard-return$$
   - {type: none}
   - Z
   - X
@@ -42,7 +42,7 @@ layers:
   - $$mdi:keyboard-space$$
   - $$mdi:keyboard-space$$
   - Num
-  - LANG1
+  - $$mdi:syllabary-hangul$$
   Symbols:
   - {type: none}
   - '`'
@@ -55,7 +55,7 @@ layers:
   - '*'
   - '-'
   - \
-  - {t: '$$mdi:backspace$$', type: backspace}
+  - $$mdi:backspace$$
   - {type: none}
   - '~'
   - '='
@@ -67,7 +67,7 @@ layers:
   - '%'
   - ^
   - '|'
-  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - $$mdi:keyboard-return$$
   - {type: none}
   - {type: none}
   - {type: none}
@@ -81,7 +81,7 @@ layers:
   - {type: none}
   - {type: none}
   - {type: none}
-  - {t: '$$mdi:triangle-down-outline$$', type: held}
+  - {type: held}
   - $$mdi:keyboard-space$$
   - $$mdi:keyboard-space$$
   - {type: none}
@@ -98,7 +98,7 @@ layers:
   - '8'
   - '9'
   - {type: none}
-  - {t: '$$mdi:backspace$$', type: backspace}
+  - $$mdi:backspace$$
   - {type: none}
   - F5
   - F6
@@ -110,7 +110,7 @@ layers:
   - '5'
   - '6'
   - '0'
-  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - $$mdi:keyboard-return$$
   - {type: none}
   - F9
   - F10
@@ -127,7 +127,7 @@ layers:
   - {type: none}
   - $$mdi:keyboard-space$$
   - $$mdi:keyboard-space$$
-  - {t: '$$mdi:triangle-down-outline$$', type: held}
+  - {type: held}
   - {type: none}
   System:
   - {type: none}
@@ -156,9 +156,9 @@ layers:
   - {type: none}
   - {type: none}
   - {type: none}
-  - $$mdi:bluetooth-transfer$$
+  - {t: '$$mdi:bluetooth$$', h: '$$mdi:chevron-double-left$$'}
   - {type: none}
-  - $$mdi:bluetooth-transfer$$
+  - {t: '$$mdi:bluetooth$$', h: '$$mdi:chevron-double-right$$'}
   - $$mdi:bluetooth-off$$
   - {type: none}
   - $$mdi:page-first$$
@@ -166,7 +166,7 @@ layers:
   - $$mdi:page-last$$
   - {type: none}
   - {type: none}
-  - {t: '$$mdi:triangle-down-outline$$', type: held}
+  - {type: held}
   - {type: none}
   - {type: none}
   - {type: none}
@@ -178,9 +178,9 @@ combos:
 - p: [15, 16, 19, 20]
   k: $$mdi:file-word-box$$
 - p: [15, 16]
-  k: $$mdi:apple-keyboard-shift$$
+  k: $$mdi:arrow-up-bold$$
 - p: [19, 20]
-  k: $$mdi:apple-keyboard-shift$$
+  k: $$mdi:arrow-up-bold$$
 - p: [14, 16]
   k: $$mdi:apple-keyboard-control$$
 - p: [19, 21]
@@ -194,14 +194,14 @@ combos:
 - p: [18, 22]
   k: $$mdi:penguin$$
 - p: [14, 15]
-  k: Ctl+$$mdi:apple-keyboard-shift$$
+  k: {h: '$$mdi:apple-keyboard-control$$', s: '$$mdi:arrow-up-bold$$'}
 - p: [20, 21]
-  k: Ctl+$$mdi:apple-keyboard-shift$$
+  k: {h: '$$mdi:apple-keyboard-control$$', s: '$$mdi:arrow-up-bold$$'}
 - p: [13, 15]
-  k: Alt+$$mdi:apple-keyboard-shift$$
-- p: [21, 22]
-  k: Ctl+$$mdi:apple-keyboard-option$$
-- p: [13, 14]
-  k: Ctl+$$mdi:apple-keyboard-option$$
+  k: {h: '$$mdi:apple-keyboard-option$$', s: '$$mdi:arrow-up-bold$$'}
 - p: [20, 22]
-  k: Alt+$$mdi:apple-keyboard-shift$$
+  k: {h: '$$mdi:apple-keyboard-option$$', s: '$$mdi:arrow-up-bold$$'}
+- p: [13, 14]
+  k: {h: '$$mdi:apple-keyboard-control$$', s: '$$mdi:apple-keyboard-option$$'}
+- p: [21, 22]
+  k: {h: '$$mdi:apple-keyboard-control$$', s: '$$mdi:apple-keyboard-option$$'}
