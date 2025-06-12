@@ -1,166 +1,207 @@
 layout: {zmk_keyboard: corne}
 layers:
-  Base: [TAB, Q, W, E, R, T, Y, U, I, O, P, BSPC, ESC, A, S, D, F, G, H, J, K, L, ;, RET, '', Z, X, C, V, B, N, M, ',', ., /, '', System, Symbols, SPACE, SPACE, Numbers,
-    LANG1]
+  Base:
+  - $$mdi:keyboard-tab$$
+  - Q
+  - W
+  - E
+  - R
+  - T
+  - Y
+  - U
+  - I
+  - O
+  - P
+  - {t: '$$mdi:backspace$$', type: backspace}
+  - $$mdi:keyboard-esc$$
+  - A
+  - S
+  - D
+  - F
+  - G
+  - H
+  - J
+  - K
+  - L
+  - ;
+  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - {type: none}
+  - Z
+  - X
+  - C
+  - V
+  - B
+  - N
+  - M
+  - ','
+  - .
+  - /
+  - {type: none}
+  - Sys
+  - Sym
+  - $$mdi:keyboard-space$$
+  - $$mdi:keyboard-space$$
+  - Num
+  - LANG1
   Symbols:
+  - {type: none}
   - '`'
-  - ''
-  - ''
-  - '='
   - +
-  - ''
-  - ''
+  - '{'
+  - '{'
+  - ''''
+  - {type: none}
   - '&'
   - '*'
   - '-'
-  - ''
   - \
+  - {t: ▽, type: trans}
+  - {type: none}
   - '~'
-  - ''''
-  - '['
+  - '='
   - (
-  - '{'
+  - )
   - '"'
   - _
   - $
   - '%'
   - ^
-  - ''
   - '|'
-  - ''
-  - ''
+  - {t: ▽, type: trans}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - '['
   - ']'
-  - )
-  - '}'
-  - ''
-  - ''
+  - {type: none}
+  - {type: none}
   - '!'
   - '@'
   - '#'
-  - ''
-  - ''
-  - ''
+  - {type: none}
+  - {type: none}
+  - {type: none}
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - ''
-  - ''
+  - {type: none}
+  - {type: none}
   Numbers:
-  - ''
+  - {type: none}
   - F1
   - F2
   - F3
   - F4
-  - ''
-  - ''
+  - {type: none}
+  - {type: none}
   - '7'
   - '8'
   - '9'
-  - ''
+  - {type: none}
   - {t: ▽, type: trans}
-  - ''
+  - {type: none}
   - F5
   - F6
   - F7
   - F8
-  - ''
-  - ''
+  - {type: none}
+  - {type: none}
   - '4'
   - '5'
   - '6'
   - '0'
   - {t: ▽, type: trans}
-  - ''
+  - {type: none}
   - F9
   - F10
   - F11
   - F12
-  - ''
-  - ''
+  - {type: none}
+  - {type: none}
   - '1'
   - '2'
   - '3'
-  - ''
-  - ''
-  - ''
-  - ''
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
-  - ''
+  - {type: none}
   System:
-  - ''
-  - ''
-  - PREV
-  - PP
-  - NEXT
-  - ''
-  - ''
-  - PG UP
-  - ''
-  - PG DN
+  - {type: none}
+  - {type: none}
+  - $$mdi:skip-previous$$
+  - $$mdi:play-pause$$
+  - $$mdi:skip-next$$
+  - {type: none}
+  - {type: none}
+  - $$mdi:transfer-up$$
+  - {type: none}
+  - $$mdi:transfer-down$$
   - PSCRN
-  - ''
-  - ''
-  - ''
-  - VOL DN
-  - MUTE
-  - VOL UP
-  - ''
-  - LEFT
-  - DOWN
-  - UP
-  - RIGHT
-  - ''
-  - ''
-  - ''
-  - ''
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - $$mdi:volume-low$$
+  - $$mdi:volume-off$$
+  - $$mdi:volume-high$$
+  - {type: none}
+  - $$mdi:arrow-left-bold$$
+  - $$mdi:arrow-down-bold$$
+  - $$mdi:arrow-up-bold$$
+  - $$mdi:arrow-right-bold$$
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
   - BT PRV
-  - ''
+  - {type: none}
   - BT NXT
-  - BT CLR
-  - ''
-  - HOME
-  - ''
-  - END
-  - ''
-  - ''
+  - $$mdi:bluetooth-off$$
+  - {type: none}
+  - $$mdi:transfer-left$$
+  - {type: none}
+  - $$mdi:transfer-right$$
+  - {type: none}
+  - {type: none}
   - {type: held}
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
 combos:
 - p: [37, 40]
-  k: {t: Numbers, h: toggle}
+  k: {t: Num, h: toggle}
 - p: [15, 16]
-  k: LSHFT
+  k: $$mdi:apple-keyboard-shift$$
 - p: [14, 16]
-  k: LCTRL
+  k: $$mdi:apple-keyboard-control$$
 - p: [13, 16]
-  k: LALT
+  k: $$mdi:apple-keyboard-option$$
 - p: [13, 17]
   k: LMETA
 - p: [14, 15]
-  k: Ctl+LSHFT
+  k: Ctl+$$mdi:apple-keyboard-shift$$
 - p: [13, 15]
-  k: Alt+LSHFT
+  k: Alt+$$mdi:apple-keyboard-shift$$
 - p: [13, 14]
-  k: Ctl+LALT
+  k: Ctl+$$mdi:apple-keyboard-option$$
 - p: [19, 20]
-  k: LSHFT
+  k: $$mdi:apple-keyboard-shift$$
 - p: [19, 21]
-  k: LCTRL
+  k: $$mdi:apple-keyboard-control$$
 - p: [19, 22]
-  k: LALT
+  k: $$mdi:apple-keyboard-option$$
 - p: [18, 22]
   k: LMETA
 - p: [20, 21]
-  k: Ctl+LSHFT
+  k: Ctl+$$mdi:apple-keyboard-shift$$
 - p: [20, 22]
-  k: Alt+LSHFT
+  k: Alt+$$mdi:apple-keyboard-shift$$
 - p: [21, 22]
-  k: Ctl+LALT
+  k: Ctl+$$mdi:apple-keyboard-option$$
 - p: [15, 16, 19, 20]
-  k: '&caps_word'
+  k: $$mdi:alpha-w-box$$
