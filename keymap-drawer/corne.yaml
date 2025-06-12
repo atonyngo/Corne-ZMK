@@ -55,7 +55,7 @@ layers:
   - '*'
   - '-'
   - \
-  - {t: ▽, type: trans}
+  - {t: '$$mdi:backspace$$', type: backspace}
   - {type: none}
   - '~'
   - '='
@@ -67,7 +67,7 @@ layers:
   - '%'
   - ^
   - '|'
-  - {t: ▽, type: trans}
+  - {t: '$$mdi:keyboard-return$$', type: enter}
   - {type: none}
   - {type: none}
   - {type: none}
@@ -81,9 +81,9 @@ layers:
   - {type: none}
   - {type: none}
   - {type: none}
-  - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {t: '$$mdi:triangle-down-outline$$', type: held}
+  - $$mdi:keyboard-space$$
+  - $$mdi:keyboard-space$$
   - {type: none}
   - {type: none}
   Numbers:
@@ -98,7 +98,7 @@ layers:
   - '8'
   - '9'
   - {type: none}
-  - {t: ▽, type: trans}
+  - {t: '$$mdi:backspace$$', type: backspace}
   - {type: none}
   - F5
   - F6
@@ -110,7 +110,7 @@ layers:
   - '5'
   - '6'
   - '0'
-  - {t: ▽, type: trans}
+  - {t: '$$mdi:keyboard-return$$', type: enter}
   - {type: none}
   - F9
   - F10
@@ -125,9 +125,9 @@ layers:
   - {type: none}
   - {type: none}
   - {type: none}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {type: held}
+  - $$mdi:keyboard-space$$
+  - $$mdi:keyboard-space$$
+  - {t: '$$mdi:triangle-down-outline$$', type: held}
   - {type: none}
   System:
   - {type: none}
@@ -137,10 +137,10 @@ layers:
   - $$mdi:skip-next$$
   - {type: none}
   - {type: none}
-  - $$mdi:transfer-up$$
+  - $$mdi:chevron-double-up$$
   - {type: none}
-  - $$mdi:transfer-down$$
-  - PSCRN
+  - $$mdi:chevron-double-down$$
+  - $$mdi:monitor-screenshot$$
   - {type: none}
   - {type: none}
   - {type: none}
@@ -156,17 +156,17 @@ layers:
   - {type: none}
   - {type: none}
   - {type: none}
-  - BT PRV
+  - $$mdi:bluetooth$$ $$mdi:chevron-right$$
   - {type: none}
-  - BT NXT
+  - $$mdi:chevron-left$$ $$mdi:bluetooth$$
   - $$mdi:bluetooth-off$$
   - {type: none}
-  - $$mdi:transfer-left$$
+  - $$mdi:page-first$$
   - {type: none}
-  - $$mdi:transfer-right$$
+  - $$mdi:page-last$$
   - {type: none}
   - {type: none}
-  - {type: held}
+  - {t: '$$mdi:triangle-down-outline$$', type: held}
   - {type: none}
   - {type: none}
   - {type: none}
@@ -175,33 +175,33 @@ layers:
 combos:
 - p: [37, 40]
   k: {t: Num, h: toggle}
+- p: [15, 16, 19, 20]
+  k: $$mdi:file-word-box$$
 - p: [15, 16]
+  k: $$mdi:apple-keyboard-shift$$
+- p: [19, 20]
   k: $$mdi:apple-keyboard-shift$$
 - p: [14, 16]
   k: $$mdi:apple-keyboard-control$$
+- p: [19, 21]
+  k: $$mdi:apple-keyboard-control$$
 - p: [13, 16]
   k: $$mdi:apple-keyboard-option$$
+- p: [19, 22]
+  k: $$mdi:apple-keyboard-option$$
 - p: [13, 17]
-  k: LMETA
+  k: $$mdi:penguin$$
+- p: [18, 22]
+  k: $$mdi:penguin$$
 - p: [14, 15]
+  k: Ctl+$$mdi:apple-keyboard-shift$$
+- p: [20, 21]
   k: Ctl+$$mdi:apple-keyboard-shift$$
 - p: [13, 15]
   k: Alt+$$mdi:apple-keyboard-shift$$
-- p: [13, 14]
-  k: Ctl+$$mdi:apple-keyboard-option$$
-- p: [19, 20]
-  k: $$mdi:apple-keyboard-shift$$
-- p: [19, 21]
-  k: $$mdi:apple-keyboard-control$$
-- p: [19, 22]
-  k: $$mdi:apple-keyboard-option$$
-- p: [18, 22]
-  k: LMETA
-- p: [20, 21]
-  k: Ctl+$$mdi:apple-keyboard-shift$$
-- p: [20, 22]
-  k: Alt+$$mdi:apple-keyboard-shift$$
 - p: [21, 22]
   k: Ctl+$$mdi:apple-keyboard-option$$
-- p: [15, 16, 19, 20]
-  k: $$mdi:alpha-w-box$$
+- p: [13, 14]
+  k: Ctl+$$mdi:apple-keyboard-option$$
+- p: [20, 22]
+  k: Alt+$$mdi:apple-keyboard-shift$$
