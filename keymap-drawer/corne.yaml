@@ -156,9 +156,9 @@ layers:
   - {type: none}
   - {type: none}
   - {type: none}
-  - $$mdi:bluetooth$$ $$mdi:chevron-right$$
+  - $$mdi:bluetooth-transfer$$
   - {type: none}
-  - $$mdi:chevron-left$$ $$mdi:bluetooth$$
+  - $$mdi:bluetooth-transfer$$
   - $$mdi:bluetooth-off$$
   - {type: none}
   - $$mdi:page-first$$
