@@ -30,10 +30,10 @@
 //                   | nop |     | SPC |   | SPC | nop | nop |
             display-name = "Symbols";
             bindings = <
-    ___       &kp GRAVE &kp PLUS  &kp LBRC  &kp LBRC  &kp SQT   ___       &kp AMPS  &kp STAR  &kp MINUS &kp BSLH  &trans
-    ___       &kp TILDE &kp EQUAL &kp LPAR  &kp RPAR  &kp DQT   &kp UNDER &kp DLLR  &kp PRCNT &kp CARET &kp PIPE  &trans
+    ___       &kp GRAVE &kp PLUS  &kp LBRC  &kp LBRC  &kp SQT   ___       &kp AMPS  &kp STAR  &kp MINUS &kp BSLH  &kp BSPC
+    ___       &kp TILDE &kp EQUAL &kp LPAR  &kp RPAR  &kp DQT   &kp UNDER &kp DLLR  &kp PRCNT &kp CARET &kp PIPE  &kp RET
     ___       ___       ___       &kp LBKT  &kp RBKT  ___       ___       &kp EXCL  &kp AT    &kp HASH  ___       ___
-                                  ___       &trans    &trans    &trans    ___       ___
+                                  ___       &trans    &kp SPACE &kp SPACE ___       ___
             >;
         };
 
@@ -45,10 +45,10 @@
 //                   | nop | nop | SPC |   | SPC |     | nop |
             display-name = "Numbers";
             bindings = <
-    ___       &kp F1    &kp F2    &kp F3    &kp F4    ___       ___       &kp N7    &kp N8    &kp N9    ___       &trans
-    ___       &kp F5    &kp F6    &kp F7    &kp F8    ___       ___       &kp N4    &kp N5    &kp N6    &kp N0    &trans
+    ___       &kp F1    &kp F2    &kp F3    &kp F4    ___       ___       &kp N7    &kp N8    &kp N9    ___       &kp BSPC
+    ___       &kp F5    &kp F6    &kp F7    &kp F8    ___       ___       &kp N4    &kp N5    &kp N6    &kp N0    &kp RET
     ___       &kp F9    &kp F10   &kp F11   &kp F12   ___       ___       &kp N1    &kp N2    &kp N3    ___       ___   
-                                  ___       ___       &trans    &trans    &trans    ___  
+                                  ___       ___       &kp SPACE &kp SPACE &trans    ___  
             >;
         };
 
@@ -92,55 +92,31 @@
             bindings = <&tog 2>;
         };
 
-        // Left side mods
+        // Capsword
+        combo_capsword {
+            timeout-ms = <50>;
+            key-positions = <15 16 19 20>;
+            bindings = <&caps_word>;
+        };
+
+        // Shift
         combo_lshift {
             timeout-ms = <50>;
             key-positions = <15 16>;
             bindings = <&kp LSHFT>;
         };
 
-        combo_lctrl {
-            timeout-ms = <50>;
-            key-positions = <14 16>;
-            bindings = <&kp LCTRL>;
-        };
-
-        combo_lalt {
-            timeout-ms = <50>;
-            key-positions = <13 16>;
-            bindings = <&kp LALT>;
-        };
-
-        combo_lmeta {
-            timeout-ms = <50>;
-            key-positions = <13 17>;
-            bindings = <&kp LMETA>;
-        };
-
-        combo_lctrlshift {
-            timeout-ms = <50>;
-            key-positions = <14 15>;
-            bindings = <&kp LC(LSHFT)>;
-        };
-
-        combo_laltshift {
-            timeout-ms = <50>;
-            key-positions = <13 15>;
-            bindings = <&kp LA(LSHFT)>;
-        };
-
-        combo_lctrlalt {
-            timeout-ms = <50>;
-            key-positions = <13 14>;
-            bindings = <&kp LC(LALT)>;
-        };
-
-
-        // Right side mods
         combo_rshift {
             timeout-ms = <50>;
             key-positions = <19 20>;
             bindings = <&kp LSHFT>;
+        };
+
+        // Ctrl
+        combo_lctrl {
+            timeout-ms = <50>;
+            key-positions = <14 16>;
+            bindings = <&kp LCTRL>;
         };
 
         combo_rctrl {
@@ -149,10 +125,24 @@
             bindings = <&kp LCTRL>;
         };
 
+        // Alt
+        combo_lalt {
+            timeout-ms = <50>;
+            key-positions = <13 16>;
+            bindings = <&kp LALT>;
+        };
+
         combo_ralt {
             timeout-ms = <50>;
             key-positions = <19 22>;
             bindings = <&kp LALT>;
+        };
+
+        // Meta
+        combo_lmeta {
+            timeout-ms = <50>;
+            key-positions = <13 17>;
+            bindings = <&kp LMETA>;
         };
 
         combo_rmeta {
@@ -161,15 +151,23 @@
             bindings = <&kp LMETA>;
         };
 
+        // Ctrl + Shift
+        combo_lctrlshift {
+            timeout-ms = <50>;
+            key-positions = <14 15>;
+            bindings = <&kp LC(LSHFT)>;
+        };
+
         combo_rctrlshift {
             timeout-ms = <50>;
             key-positions = <20 21>;
             bindings = <&kp LC(LSHFT)>;
         };
 
-        combo_raltshift {
+        // Alt + Shift
+        combo_laltshift {
             timeout-ms = <50>;
-            key-positions = <20 22>;
+            key-positions = <13 15>;
             bindings = <&kp LA(LSHFT)>;
         };
 
@@ -179,11 +177,17 @@
             bindings = <&kp LC(LALT)>;
         };
 
-        // Misc combos
-        combo_capsword {
+        // Ctrl + Alt
+        combo_lctrlalt {
             timeout-ms = <50>;
-            key-positions = <15 16 19 20>;
-            bindings = <&caps_word>;
+            key-positions = <13 14>;
+            bindings = <&kp LC(LALT)>;
         };
+
+        combo_raltshift {
+            timeout-ms = <50>;
+            key-positions = <20 22>;
+            bindings = <&kp LA(LSHFT)>;
+        }; 
     };
 };

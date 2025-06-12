@@ -9,17 +9,9 @@ parse_config:
       tap: ""
       type: none
 
-    "&caps_word": $$mdi:alpha-w-box$$
+    "&caps_word": $$mdi:file-word-box$$
 
-    # Bluetooth
-    "&bt BT_SEL 0":
-      shifted: $$mdi:bluetooth-connect$$
-      tap: ""
-      hold: 1
-    "&bt BT_SEL 1":
-      shifted: $$mdi:bluetooth-connect$$
-      tap: ""
-      hold: 2
+    "&trans": $$mdi:triangle-down-outline$$
 
   zmk_keycode_map:
     # Symbols
@@ -52,15 +44,21 @@ parse_config:
     DOT: "."
     FSLH: "/"
 
+    # Other
+    PSCRN: $$mdi:monitor-screenshot$$
+
+    # Language
+    LANG_1: $$mdi:syllabary-hangul$$
+
     # Navigation
     UP: $$mdi:arrow-up-bold$$
     DOWN: $$mdi:arrow-down-bold$$
     LEFT: $$mdi:arrow-left-bold$$
     RIGHT: $$mdi:arrow-right-bold$$
-    PG_UP: $$mdi:transfer-up$$
-    PG_DN: $$mdi:transfer-down$$
-    HOME: $$mdi:transfer-left$$
-    END: $$mdi:transfer-right$$
+    PG_UP: $$mdi:chevron-double-up$$
+    PG_DN: $$mdi:chevron-double-down$$
+    HOME: $$mdi:page-first$$
+    END: $$mdi:page-last$$
 
     # Whitespace
     RET:
@@ -77,7 +75,7 @@ parse_config:
     LCTRL: $$mdi:apple-keyboard-control$$
     LALT: $$mdi:apple-keyboard-option$$
     LSHFT: $$mdi:apple-keyboard-shift$$
-    LCMD: $$mdi:apple-keyboard-command$$
+    LMETA: $$mdi:penguin$$
     
     # Media
     C_PP: $$mdi:play-pause$$
@@ -90,10 +88,11 @@ parse_config:
     C_VOL_DN: $$mdi:volume-low$$
 
     # Bluetooth
+    BT_NXT: $$mdi:chevron-left$$ $$mdi:bluetooth$$
+    BT_PRV: $$mdi:bluetooth$$ $$mdi:chevron-right$$
     BT_CLR: $$mdi:bluetooth-off$$
-    BT_SEL: $$mdi:bluetooth-connect$$
 
 draw_config:
   append_colon_to_layer_header: false
   separate_combo_diagrams: true
-  combo_diagrams_scale: 3
+  combo_diagrams_scale: 2
