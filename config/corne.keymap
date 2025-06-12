@@ -30,7 +30,7 @@
 //                   | nop |     | SPC |   | SPC | nop | nop |
             display-name = "Symbols";
             bindings = <
-    ___       &kp GRAVE &kp PLUS  &kp LBRC  &kp LBRC  &kp SQT   ___       &kp AMPS  &kp STAR  &kp MINUS &kp BSLH  &kp BSPC
+    ___       &kp GRAVE &kp PLUS  &kp LBRC  &kp RBRC  &kp SQT   ___       &kp AMPS  &kp STAR  &kp MINUS &kp BSLH  &kp BSPC
     ___       &kp TILDE &kp EQUAL &kp LPAR  &kp RPAR  &kp DQT   &kp UNDER &kp DLLR  &kp PRCNT &kp CARET &kp PIPE  &kp RET
     ___       ___       ___       &kp LBKT  &kp RBKT  ___       ___       &kp EXCL  &kp AT    &kp HASH  ___       ___
                                   ___       &trans    &kp SPACE &kp SPACE ___       ___
