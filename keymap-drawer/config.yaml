@@ -30,6 +30,9 @@ parse_config:
       tap: ""
       hold: $$mdi:apple-keyboard-control$$
 
+    "&tog 2":
+      tap: $$mdi:numeric$$
+
   zmk_keycode_map:
     # Symbols
     GRAVE: "`"

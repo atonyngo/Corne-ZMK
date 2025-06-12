@@ -141,13 +141,13 @@
         // Meta
         combo_lmeta {
             timeout-ms = <50>;
-            key-positions = <13 17>;
+            key-positions = <16 17>;
             bindings = <&kp LMETA>;
         };
 
         combo_rmeta {
             timeout-ms = <50>;
-            key-positions = <18 22>;
+            key-positions = <18 19>;
             bindings = <&kp LMETA>;
         };
 
