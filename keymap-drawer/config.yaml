@@ -88,8 +88,8 @@ parse_config:
     C_VOL_DN: $$mdi:volume-low$$
 
     # Bluetooth
-    BT_NXT: $$mdi:chevron-left$$ $$mdi:bluetooth$$
-    BT_PRV: $$mdi:bluetooth$$ $$mdi:chevron-right$$
+    BT_NXT: $$mdi:bluetooth-transfer$$
+    BT_PRV: $$mdi:bluetooth-transfer$$
     BT_CLR: $$mdi:bluetooth-off$$
 
 draw_config:
