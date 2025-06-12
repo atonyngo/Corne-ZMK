@@ -9,9 +9,26 @@ parse_config:
       tap: ""
       type: none
 
+    "&trans":
+      tap: ""
+      type: none
+
     "&caps_word": $$mdi:file-word-box$$
 
-    "&trans": $$mdi:triangle-down-outline$$
+    "&kp LC(LSHFT)":
+      shifted: $$mdi:arrow-up-bold$$
+      tap: ""
+      hold: $$mdi:apple-keyboard-control$$
+
+    "&kp LA(LSHFT)":
+      shifted: $$mdi:arrow-up-bold$$
+      tap: ""
+      hold: $$mdi:apple-keyboard-option$$
+
+    "&kp LC(LALT)":
+      shifted: $$mdi:apple-keyboard-option$$
+      tap: ""
+      hold: $$mdi:apple-keyboard-control$$
 
   zmk_keycode_map:
     # Symbols
@@ -48,7 +65,7 @@ parse_config:
     PSCRN: $$mdi:monitor-screenshot$$
 
     # Language
-    LANG_1: $$mdi:syllabary-hangul$$
+    LANG1: $$mdi:syllabary-hangul$$
 
     # Navigation
     UP: $$mdi:arrow-up-bold$$
@@ -61,20 +78,16 @@ parse_config:
     END: $$mdi:page-last$$
 
     # Whitespace
-    RET:
-      type: enter
-      tap: $$mdi:keyboard-return$$
+    RET: $$mdi:keyboard-return$$
     ESC: $$mdi:keyboard-esc$$
     TAB: $$mdi:keyboard-tab$$
     SPACE: $$mdi:keyboard-space$$
-    BSPC:
-      type: backspace
-      tap: $$mdi:backspace$$
+    BSPC: $$mdi:backspace$$
 
     # Modifiers
     LCTRL: $$mdi:apple-keyboard-control$$
     LALT: $$mdi:apple-keyboard-option$$
-    LSHFT: $$mdi:apple-keyboard-shift$$
+    LSHFT: $$mdi:arrow-up-bold$$
     LMETA: $$mdi:penguin$$
     
     # Media
@@ -88,8 +101,12 @@ parse_config:
     C_VOL_DN: $$mdi:volume-low$$
 
     # Bluetooth
-    BT_NXT: $$mdi:bluetooth-transfer$$
-    BT_PRV: $$mdi:bluetooth-transfer$$
+    BT_NXT:
+      tap: $$mdi:bluetooth$$
+      hold: $$mdi:chevron-double-right$$
+    BT_PRV:
+      tap: $$mdi:bluetooth$$
+      hold: $$mdi:chevron-double-left$$ 
     BT_CLR: $$mdi:bluetooth-off$$
 
 draw_config:
