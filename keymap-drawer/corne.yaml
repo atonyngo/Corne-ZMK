@@ -174,7 +174,7 @@ layers:
   - {type: none}
 combos:
 - p: [37, 40]
-  k: {t: Num, h: toggle}
+  k: $$mdi:numeric$$
 - p: [15, 16, 19, 20]
   k: $$mdi:file-word-box$$
 - p: [15, 16]
@@ -189,9 +189,9 @@ combos:
   k: $$mdi:apple-keyboard-option$$
 - p: [19, 22]
   k: $$mdi:apple-keyboard-option$$
-- p: [13, 17]
+- p: [16, 17]
   k: $$mdi:penguin$$
-- p: [18, 22]
+- p: [18, 19]
   k: $$mdi:penguin$$
 - p: [14, 15]
   k: {h: '$$mdi:apple-keyboard-control$$', s: '$$mdi:arrow-up-bold$$'}
