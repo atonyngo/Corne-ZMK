@@ -45,29 +45,29 @@ layers:
   - $$mdi:syllabary-hangul$$
   Symbols:
   - {type: none}
-  - '`'
+  - {type: none}
   - +
   - '{'
   - '}'
-  - ''''
-  - {type: none}
-  - '&'
-  - '*'
-  - '-'
+  - '`'
+  - '!'
+  - '@'
+  - '#'
+  - $
+  - '%'
   - \
-  - $$mdi:backspace$$
-  - {type: none}
   - '~'
+  - '"'
   - '='
   - (
   - )
-  - '"'
-  - _
-  - $
-  - '%'
+  - ''''
   - ^
+  - '&'
+  - '*'
+  - '-'
+  - _
   - '|'
-  - $$mdi:keyboard-return$$
   - {type: none}
   - {type: none}
   - {type: none}
@@ -75,9 +75,9 @@ layers:
   - ']'
   - {type: none}
   - {type: none}
-  - '!'
-  - '@'
-  - '#'
+  - {type: none}
+  - {type: none}
+  - {type: none}
   - {type: none}
   - {type: none}
   - {type: none}
@@ -87,28 +87,28 @@ layers:
   - {type: none}
   - {type: none}
   Numbers:
-  - {type: none}
+  - $$mdi:keyboard-tab$$
   - F1
   - F2
   - F3
   - F4
   - {type: none}
-  - {type: none}
-  - '7'
-  - '8'
-  - '9'
-  - {type: none}
+  - '1'
+  - '2'
+  - '3'
+  - '4'
+  - '5'
   - $$mdi:backspace$$
-  - {type: none}
+  - $$mdi:keyboard-esc$$
   - F5
   - F6
   - F7
   - F8
   - {type: none}
-  - {type: none}
-  - '4'
-  - '5'
   - '6'
+  - '7'
+  - '8'
+  - '9'
   - '0'
   - $$mdi:keyboard-return$$
   - {type: none}
@@ -118,9 +118,9 @@ layers:
   - F12
   - {type: none}
   - {type: none}
-  - '1'
-  - '2'
-  - '3'
+  - {type: none}
+  - {type: none}
+  - {type: none}
   - {type: none}
   - {type: none}
   - {type: none}
@@ -154,12 +154,12 @@ layers:
   - $$mdi:arrow-right-bold$$
   - {type: none}
   - {type: none}
-  - {type: none}
+  - $$mdi:bluetooth-off$$
   - {type: none}
   - {t: '$$mdi:bluetooth$$', h: '$$mdi:chevron-double-left$$'}
   - {type: none}
   - {t: '$$mdi:bluetooth$$', h: '$$mdi:chevron-double-right$$'}
-  - $$mdi:bluetooth-off$$
+  - {type: none}
   - {type: none}
   - $$mdi:page-first$$
   - {type: none}
