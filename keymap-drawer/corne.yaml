@@ -38,10 +38,10 @@ layers:
   - /
   - {type: none}
   - Sys
-  - Num
-  - $$mdi:keyboard-space$$
-  - $$mdi:keyboard-space$$
   - Sym
+  - $$mdi:keyboard-space$$
+  - $$mdi:keyboard-space$$
+  - Num
   - $$mdi:syllabary-hangul$$
   Symbols:
   - {type: none}
@@ -81,10 +81,10 @@ layers:
   - {type: none}
   - {type: none}
   - {type: none}
-  - {type: none}
-  - $$mdi:keyboard-space$$
-  - $$mdi:keyboard-space$$
   - {type: held}
+  - $$mdi:keyboard-space$$
+  - $$mdi:keyboard-space$$
+  - {type: none}
   - {type: none}
   Numbers:
   - $$mdi:keyboard-tab$$
@@ -124,10 +124,10 @@ layers:
   - {type: none}
   - {type: none}
   - {type: none}
-  - {type: held}
-  - $$mdi:keyboard-space$$
-  - $$mdi:keyboard-space$$
   - {type: none}
+  - $$mdi:keyboard-space$$
+  - $$mdi:keyboard-space$$
+  - {type: held}
   - {type: none}
   System:
   - {type: none}
