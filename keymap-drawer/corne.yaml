@@ -38,35 +38,35 @@ layers:
   - /
   - {type: none}
   - Sys
-  - Sym
-  - $$mdi:keyboard-space$$
-  - $$mdi:keyboard-space$$
   - Num
+  - $$mdi:keyboard-space$$
+  - $$mdi:keyboard-space$$
+  - Sym
   - $$mdi:syllabary-hangul$$
   Symbols:
   - {type: none}
-  - {type: none}
+  - '`'
   - +
   - '{'
   - '}'
-  - '`'
+  - {type: none}
+  - '%'
   - '!'
   - '@'
   - '#'
-  - $
-  - '%'
+  - '*'
   - \
   - '~'
-  - '"'
+  - ''''
   - '='
   - (
   - )
-  - ''''
+  - '"'
   - ^
-  - '&'
-  - '*'
-  - '-'
   - _
+  - '-'
+  - $
+  - '&'
   - '|'
   - {type: none}
   - {type: none}
@@ -81,10 +81,10 @@ layers:
   - {type: none}
   - {type: none}
   - {type: none}
-  - {type: held}
-  - $$mdi:keyboard-space$$
-  - $$mdi:keyboard-space$$
   - {type: none}
+  - $$mdi:keyboard-space$$
+  - $$mdi:keyboard-space$$
+  - {type: held}
   - {type: none}
   Numbers:
   - $$mdi:keyboard-tab$$
@@ -93,11 +93,11 @@ layers:
   - F3
   - F4
   - {type: none}
+  - {type: none}
   - '1'
   - '2'
   - '3'
-  - '4'
-  - '5'
+  - {type: none}
   - $$mdi:backspace$$
   - $$mdi:keyboard-esc$$
   - F5
@@ -105,11 +105,11 @@ layers:
   - F7
   - F8
   - {type: none}
-  - '6'
-  - '7'
-  - '8'
-  - '9'
   - '0'
+  - '4'
+  - '5'
+  - '6'
+  - {type: none}
   - $$mdi:keyboard-return$$
   - {type: none}
   - F9
@@ -118,16 +118,16 @@ layers:
   - F12
   - {type: none}
   - {type: none}
+  - '7'
+  - '8'
+  - '9'
   - {type: none}
   - {type: none}
   - {type: none}
-  - {type: none}
-  - {type: none}
-  - {type: none}
-  - {type: none}
-  - $$mdi:keyboard-space$$
-  - $$mdi:keyboard-space$$
   - {type: held}
+  - $$mdi:keyboard-space$$
+  - $$mdi:keyboard-space$$
+  - {type: none}
   - {type: none}
   System:
   - {type: none}
