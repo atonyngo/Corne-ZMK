@@ -49,14 +49,14 @@ layers:
   - +
   - '{'
   - '}'
-  - {type: none}
+  - '~'
   - '%'
   - '!'
   - '@'
   - '#'
   - '*'
   - \
-  - '~'
+  - {type: none}
   - ''''
   - '='
   - (
@@ -105,11 +105,11 @@ layers:
   - F7
   - F8
   - {type: none}
-  - '0'
+  - {type: none}
   - '4'
   - '5'
   - '6'
-  - {type: none}
+  - '0'
   - $$mdi:keyboard-return$$
   - {type: none}
   - F9
