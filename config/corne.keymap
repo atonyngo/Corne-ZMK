@@ -24,14 +24,14 @@
            
         symbol_layer {
 // ------------------------------------------------------------------------------
-// | nop |  `  |  +  |  {  |  }  | nop |   |  %  |  !  |  @  |  #  |  *  |  \  |
-// |  ~  |  '  |  =  |  (  |  )  |  "  |   |  ^  |  _  |  -  |  $  |  &  |  |  |
+// | nop |  `  |  +  |  {  |  }  |  ~  |   |  %  |  !  |  @  |  #  |  *  |  \  |
+// | nop |  '  |  =  |  (  |  )  |  "  |   |  ^  |  _  |  -  |  $  |  &  |  |  |
 // | nop | nop | nop |  [  |  ]  | nop |   | nop | nop | nop | nop | nop | nop |
 //                   | nop | nop | SPC |   | SPC |     | nop |
             display-name = "Symbols";
             bindings = <
-    ___       &kp GRAVE &kp PLUS  &kp LBRC  &kp RBRC  ___       &kp PRCNT &kp EXCL  &kp AT    &kp HASH  &kp STAR  &kp BSLH 
-    &kp TILDE &kp SQT   &kp EQUAL &kp LPAR  &kp RPAR  &kp DQT   &kp CARET &kp UNDER &kp MINUS &kp DLLR  &kp AMPS  &kp PIPE
+    ___       &kp GRAVE &kp PLUS  &kp LBRC  &kp RBRC  &kp TILDE &kp PRCNT &kp EXCL  &kp AT    &kp HASH  &kp STAR  &kp BSLH 
+    ___       &kp SQT   &kp EQUAL &kp LPAR  &kp RPAR  &kp DQT   &kp CARET &kp UNDER &kp MINUS &kp DLLR  &kp AMPS  &kp PIPE
     ___       ___       ___       &kp LBKT  &kp RBKT  ___       ___       ___       ___       ___       ___       ___
                                   ___       &trans    &kp SPACE &kp SPACE ___       ___
             >;
@@ -40,13 +40,13 @@
         nums_layer {
 // ------------------------------------------------------------------------------
 // | TAB |  F1 |  F2 |  F3 |  F4 | nop |   | nop |  1  |  2  |  3  | nop | BKS |
-// | ESC |  F5 |  F6 |  F7 |  F8 | nop |   |  0  |  4  |  5  |  6  | nop | RET |
+// | ESC |  F5 |  F6 |  F7 |  F8 | nop |   | nop |  4  |  5  |  6  |  0  | RET |
 // | nop |  F9 | F10 | F11 | F12 | nop |   | nop |  7  |  8  |  9  | nop | nop |
 //                   | nop | nop | SPC |   | SPC |     | nop |
             display-name = "Numbers";
             bindings = <
     &kp TAB   &kp F1    &kp F2    &kp F3    &kp F4    ___       ___       &kp N1    &kp N2    &kp N3    ___       &kp BSPC
-    &kp ESC   &kp F5    &kp F6    &kp F7    &kp F8    ___       &kp N0    &kp N4    &kp N5    &kp N6    ___       &kp RET
+    &kp ESC   &kp F5    &kp F6    &kp F7    &kp F8    ___       ___       &kp N4    &kp N5    &kp N6    &kp N0    &kp RET
     ___       &kp F9    &kp F10   &kp F11   &kp F12   ___       ___       &kp N7    &kp N8    &kp N9    ___       ___   
                                   ___       ___       &kp SPACE &kp SPACE &trans    ___
             >;
